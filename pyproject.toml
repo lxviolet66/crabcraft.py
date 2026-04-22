@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "crabcraft"
+version = "1.0"
+authors = [
+  { name="lxviolet", email="lxviolet@proton.me" }
+]
+description = "Python interface for the CrabCraft API"
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Operating System :: OS Independent"
+]
+license = "GPL-3.0"
+license-files = ["LICEN[CS]E"]
+
+[project.urls]
+Homepage = "https://github.com/lxviolet66/crabcraft.py"
+Issues = "https://github.com/lxviolet66/crabcraft.py/issues"
